@@ -98,12 +98,22 @@
 
          }  
        
-        section#video{
+        section.video{
             background-color: #063D1E;
+            margin: 0px -20px 30px -20px;
             padding: 20px;
-            height: 530px;
+            padding-bottom: 59%;
+            position: relative;
+           
 
             
+        }
+        section.video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
         }
        
         section > p#extra{
@@ -174,7 +184,7 @@
             <article>
                 <aside>
                 </aside>
-                <section id="video">
+                <section class="video">
                 <iframe width="760" height="515" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen > </iframe>
             </section>
             <section>
